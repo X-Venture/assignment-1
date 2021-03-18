@@ -42,12 +42,10 @@ public class FindSecondLargetTest {
      */
     @Test
     public void testExecute() {
-        System.out.println("execute");
         int[] arr = {3,5,1,4,10};
         int expResult = 5;
         int result = FindSecondLarget.execute(arr);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
     }
     
 }
