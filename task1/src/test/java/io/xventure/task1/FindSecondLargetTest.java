@@ -48,4 +48,11 @@ public class FindSecondLargetTest {
         assertEquals(expResult, result);
     }
     
+     @Test
+    public void testExecute2() {
+        int[] arr = {-3,-5,-1,-4,-10};
+        int expResult = -3;
+        int result = FindSecondLarget.execute(arr);
+        assertEquals(expResult, result);
+    }
 }
